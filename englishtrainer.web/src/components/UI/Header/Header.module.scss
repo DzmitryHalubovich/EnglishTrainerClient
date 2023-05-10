@@ -1,0 +1,49 @@
+
+.headerWrapper{
+    padding: 1.1rem 0 1.1rem 0;
+    // border-bottom: 1px solid #f7f7f7;
+    margin-bottom: 1rem;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        max-width: 840px;
+        width: 100%;
+        margin: 0 auto;
+        &Logo{
+            &Link{
+                h3{
+                    font-weight: 800;
+                    font-size: 1.25rem;
+                    text-transform: uppercase;
+                    color:#004aac;
+                    span{
+                        color:#ff2121;
+                        font-size: 1.25rem;
+                    }
+                }
+                span{
+                    color: #7b7b7b;
+                }
+            }
+        }
+        &Login{
+
+        }
+        .loginWrapper{
+            display: flex;
+            align-items: center;
+            .login{
+                color: #004aac;
+            }
+        }
+        .line{
+            position: absolute;
+            left: 0%;
+            right: 0%;
+            top: 80px;
+            opacity: 0.3;
+            border: 1px solid #807f7f;
+        }
+
+    }
+}

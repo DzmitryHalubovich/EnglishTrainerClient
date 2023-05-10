@@ -1,0 +1,33 @@
+.navigationPanelWrapper{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 5px 0 45px 0;
+    margin: 0 auto;
+    width: 620px;
+    height: 10px;
+    // background-color: red;
+}
+
+.navElement{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    width: 30%;
+    height: 30px;
+    color: #004aac;
+
+    transition: border .085s, scale .3s;
+    a{
+        color: #004aac;
+    }
+}
+
+.navElement:hover{
+    border: 2px solid #ff2121;
+    scale: 1.5;
+    
+}

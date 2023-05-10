@@ -1,0 +1,14 @@
+.words_table_container{
+    display: flex;
+    justify-content: center;
+}
+
+.words_table{
+    width:800px;
+}
+
+.row {
+    background-color: grey;
+    color: #fff;
+    margin-top: 3px;
+}
